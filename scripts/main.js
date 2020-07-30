@@ -5,6 +5,7 @@ import { FoodTicketHolders } from "./food/FoodTicketHolder.js"
 import {GamesTicketHolders} from "./games/GameTicketHolder.js"
 import {SideshowTicketHolders} from "./sideshows/SideshowTicketHolders.js"
 import { BigSpenders } from "./BigSpender.js"
+import { totalTicketCounter } from "./TotalTickets.js"
 
 
 TicketBooth()
@@ -13,3 +14,4 @@ FoodTicketHolders()
 GamesTicketHolders()
 SideshowTicketHolders()
 BigSpenders()
+totalTicketCounter()
